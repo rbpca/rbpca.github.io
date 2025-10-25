@@ -1,0 +1,56 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header title */
+h1, h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Plotly div container */
+#plotly-div {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Bild (PNG-Vorschau) */
+img {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 100%;
+  height: auto;
+}
